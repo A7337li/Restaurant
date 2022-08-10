@@ -12,7 +12,7 @@ menuburger.addEventListener('click', () => {
         bool = false;
     } else {
         menuburger.classList.remove('open');
-        list.style.top = '-35%';
+        list.style.top = '-50%';
         bool = true;
     }
 })
