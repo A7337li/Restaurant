@@ -1,4 +1,4 @@
-let $ = document;
+const $ = document;
 
 const menuburger = $.querySelector(".burger");
 const list = $.querySelector(".list");
@@ -20,7 +20,7 @@ menuburger.addEventListener('click', () => {
         bool = false;
     } else {
         menuburger.classList.remove('open');
-        list.style.top = '-10%';
+        list.style.top = '-20%';
         bool = true;
     }
 })
