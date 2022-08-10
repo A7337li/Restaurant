@@ -6,11 +6,11 @@ let bool = true;
 
 menuburger.addEventListener('click', () => {
 
-    if (screen.width <= 371 & bool == true) {
+    if (screen.width <= 400 & bool == true) {
         menuburger.classList.add('open');
         list.style.top = 0;
         bool = false;
-    } else if (screen.width <= 371 & bool == false){
+    } else if (screen.width <= 400 & bool == false){
         menuburger.classList.remove('open');
         list.style.top = '-100%';
         bool = true;
