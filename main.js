@@ -6,15 +6,15 @@ let bool = true;
 
 menuburger.addEventListener('click', () => {
 
-    if (screen.width <= 400 & bool == true) {
+    if (screen.width <= 475 & bool == true) {
         menuburger.classList.add('open');
         list.style.top = 0;
         bool = false;
-    } else if (screen.width <= 400 & bool == false){
+    } else if (screen.width <= 475 & bool == false) {
         menuburger.classList.remove('open');
         list.style.top = '-100%';
         bool = true;
-    }else if (bool == true) {
+    } else if (bool == true) {
         menuburger.classList.add('open');
         list.style.top = 0;
         bool = false;
@@ -24,3 +24,5 @@ menuburger.addEventListener('click', () => {
         bool = true;
     }
 })
+
+
