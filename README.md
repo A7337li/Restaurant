@@ -1,6 +1,5 @@
 # Restaurant
-This is a Restaurant Theme Website Template, redesign using html & css & JavaScript.<br />
-Of course, it is still being completed.
+This is a restaurant theme website template that uses html, css and javascript It has been completely redesigned in a responsive manner.
 # Technologies Used
 <ol>
   <li>HTML5</li>
