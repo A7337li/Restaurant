@@ -251,7 +251,7 @@ input[type=button] {
 		padding: 10px 20px;
 	}
 
-	#li-home {
+	.list + li {
 		margin-right: -3%;
 	}
 }
